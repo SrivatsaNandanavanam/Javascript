@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+</head>
+<style>
+    body{
+        background: #222;
+        margin-top: 20px;
+        color: aliceblue;
+    }
+    .thumb img{
+        height: 80px;
+        border: 4px solid #555;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+    }
+    .thumb img:hover{
+        border:4px solid aqua;
+    }
+    .pre img{
+        border: 4px solid #444;
+        padding: 1px;
+        width: 800px;
+    }
+</style>
+<body>
+    <div id="container" align="center">
+
+        <h1> MY WEB GALLAERY</h1>
+         <br>
+        <div class="thumb">
+            <img onmouseover="pre.src=img1.src" name="img1" src="img1.jpg" />
+            <img onmouseover="pre.src=img2.src" name="img2" src="img2.jpg" />
+            <img onmouseover="pre.src=img3.src" name="img3" src="img3.jpg" />
+            <img onmouseover="pre.src=img4.src" name="img4" src="img4.jpg" />
+            <img onmouseover="pre.src=img5.src" name="img5" src="img5.jpg" />
+        </div>
+        <br/>
+    <div class="pre" align="center">
+        <img name="pre" src="img1.jpg"/>
+    </div>
+    </div>    
+    
+</body>
+</html>
